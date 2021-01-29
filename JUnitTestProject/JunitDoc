@@ -1,0 +1,36 @@
+Software Testing
+	objective is to find the defects/ bugs.
+	
+	Defect: variance between actual result and expected result.
+	
+	For example:
+	Gmail.com - Sign in
+expected:		if valid username and valid password is entered 
+					then user should be successfully signed in.
+					
+actual: run gmail.com: enter the valid credentials
+	Then check if it allows to sign in or is it giving an error message.
+	
+Lets assume
+	actual result: after entering the credentials it allows me to sign in.
+	
+	actual result = expected result : no defect
+	
+	Assertion: comparison between expected result and actual result.
+			
+----------------------------------------------------------------------
+JUnit Framework: Test Driven Development Framework (TDD)
+
+Provides Annotations
+	@annotationName
+		execute our junit program.
+		
+	@Test - function is considered as under test.
+	
+Provides Assertions
+Provides exception test
+Provides parameterization test
+
+
+			
+			
