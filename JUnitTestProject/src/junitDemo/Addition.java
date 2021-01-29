@@ -7,7 +7,7 @@ public class Addition
 	
 	public int add()
 	{
-		int sum = num1 + num2;
+		int sum = num1 + num2 + 1;
 		return sum;
 	}	
 	
